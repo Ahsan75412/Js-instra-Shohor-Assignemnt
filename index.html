@@ -63,49 +63,88 @@
         <h1 class="pb-3" id="qustion">Frequently Asked Questions</h1>
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  How Does javascript Works?
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    JavaScript is a scripting language. It is designed to control the behavior of the website at the client level, i.e. the browser. But now it runs on any operating system except browsers and it has all the features of other high level programming languages.
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        How Does javascript Works?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        It's Important to know , How the javascript works , here is important how the browser and DOM
+                        works.
+                        a web browser loads a website page . here is parses the HTML and create which known as DOM. DOM
+                        present the live view in js code.
+                        JavaScript is a scripting language. It is designed to control the behavior of the website at the
+                        client level, i.e. the browser. But now it runs on any operating system not only browsers and it
+                        has all the features of other high level programming languages.
+                        The interaction of JavaScript web pages, such as its components and programs, is used to perform
+                        various web pages. Also, it allows users to load new images and content without any refresh at
+                        certain time intervals.
+                        Beyond website and app development, developers can use JavaScript to build powerful web servers
+                        and perform server tasks using Node.js.
+
+                    </div>
                 </div>
-              </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  What does event loop do ?
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Diffrence between Local Storage and Session Storage
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h5>Session Storage:</h2>
+                            The session storage property allows you to access a session storage object. Data stored in
+                            LocalStore has no expiration time setting, and data stored in sessionStore is cleared at the
+                            end of the page session except the page session is maintained while the browser is open and
+                            reloading or restoring the page still retains the original page session. Opening a page in a
+                            new tab or window will start a new session, which is different from how session cookies work
+
+                            <h5>Local Storage:</h2>
+                                The local storage property allows you to access a local storage object. Localstation
+                                equals sessionstation. The difference is that the data in the local storage has no
+                                expiration date and the data stored in the session storage is cleared at the end of the
+                                browser session (i.e. when the browser is closed).
+
+                    </div>
                 </div>
-              </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Diffrence between Local Storage and Session sto
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    JavaScript is a scripting language. It is designed to control the behavior of the website at the client level, i.e. the browser. But now it runs on any operating system except browsers and it has all the features of other high level programming languages.
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        What does event loop do ?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        javascript depending on event loop has a runtime model , which is responsible for the run and
+                        executing the code , collect and processing events data.
+                        This model is unique any other languages like C and Java.
+                        Now the number of requests the host system is processing will depend on the host, but the
+                        JavaScript engine will never process more than one statement at a time. And the line I'm talking
+                        about is the JavaScript event loop. It's calling a Function and create a new stack
+                        frame for that Function's uses.
+
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
     </section>
     <footer></footer>
 
 
 
     <!-- bootstrap js  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 
     <!-- add javascript  file  -->
